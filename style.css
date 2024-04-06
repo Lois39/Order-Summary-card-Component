@@ -1,0 +1,114 @@
+@import url(https://fonts.google.com/specimen/Red+Hat+Display);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin: 30px auto;
+    padding: 0 30px;
+}
+.order-card{
+    max-width: 330px;
+    display: block;
+    background-color: #fff;
+    border-radius: 15px;
+}
+.img img{
+    max-width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.card-content{
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.header-text{
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+}
+
+.paragraph-text{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-top:18px;
+}
+.plan{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.music-icon{
+    padding-left: 8px;
+    padding-right: 13px;
+}
+
+.plan-header{
+    color: hsl(223, 47%, 23%);
+    font-size: 12px;
+    font-weight: 600;
+    padding-right: 65px;
+}
+
+.plan-paragraph{
+    margin-top: 5px;
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+}
+
+.change-btn{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.change-btn:hover{
+    color: hsl(224, 23%, 55%);
+}
+
+.payment-btn{
+    margin-top: 30px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border: none;
+    padding: 12px 0;
+    font-weight: 900;
+    color: #fff;
+}
+
+.payment-btn:hover{
+    background-color: hsl(224, 23%, 55%);
+}
+
+.payment{
+    text-decoration: none;
+    color: #fff;
+}
+
+.cancel-btn{
+    margin-top: 30px;
+    text-align: center;
+    color: hsl(223, 89%, 42%);
+    text-decoration: none;
+}
+
+.cancel-btn:hover{
+    color: hsl(223, 47%, 23%);
+}
